@@ -53,6 +53,6 @@ resources:
         {% endif %}
       metadata:
         items:
-        - key: google-container-manifest
+        - key: gce-container-declaration
           value: |
             {{ imports[properties["containerManifest"]]|indent(12) }}
